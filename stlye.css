@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.div1{
+  height:300px;
+  width:400px;
+  background-color:rgb(215, 210, 210);
+  
+  border:2px,solid,black;
+  
+}
+.div2{
+  height:25px;
+  width:25px;
+  background-color:rgb(0, 0, 0); 
+  position:relative;
+  top:50px;
+  left:150px;
+  box-shadow:  25px 0px 0px 0px rgb(0, 0, 0),50px 25px 0px 0px rgb(0, 0, 0),75px 0px 0px 0px rgb(0, 0, 0),100px 0px 0px 0px rgb(0, 0, 0),125px 25px 0px 0px rgb(0, 0, 0),125px 50px 0px 0px rgb(0, 0, 0),100px 75px 0px 0px rgb(0, 0, 0),75px 100px 0px 0px rgb(0, 0, 0),50px 125px 0px 0px rgb(0, 0, 0),25px 100px 0px 0px rgb(0, 0, 0),0px 75px 0px 0px rgb(0, 0, 0),-25px 25px 0px 0px rgb(0, 0, 0),-25px 50px 0px 0px rgb(0, 0, 0),
+
+  0px 25px 0px 0px rgb(233,33,159 ), 25px 25px 0px 0px rgb(233, 33, 159),  0px 50px 0px 0px rgb(233, 33, 159), 25px 50px 0px 0px rgb(233, 33, 159), 50px 50px 0px 0px rgb(233, 33, 159), 50px 75px 0px 0px rgb(233, 33, 159), 25px 75px 0px 0px rgb(233, 33, 159), 50px 100px 0px 0px rgb(233, 33, 159), 75px 75px 0px 0px rgb(233, 33, 159), 75px 50px 0px 0px rgb(233, 33, 159), 100px 50px 0px 0px rgb(233, 33, 159), 75px 25px 0px 0px rgb(233, 33, 159);
+}
+
+.div4{
+    height:25px;
+  width:25px;
+  background-color:rgb(0, 0, 0); 
+  position:relative;
+  top:50px;
+  left:150px;
+  box-shadow: 0px 25px 0px 0px black,0px 50px 0px 0px black,0px 75px 0px 0px black,0px 100px 0px 0px black,0px 125px 0px 0px black,25px 25px 0px 0px black,50px 50px 0px 0px black,50px 75px 0px 0px black,-25px 125px 0px 0px black,-25px 100px 0px 0px black,-50px 125px 0px 0px black,-50px 100px 0px 0px black,-75px 125px 0px 0px black,-25px 150px 0px 0px black,-50px 150px 0px 0px black;;
+}
+.div6{
+    height:25px;
+  width:25px;
+  background-color:rgb(203, 15, 15); 
+  position:relative;
+  top:60px;
+  left:150px;
+  box-shadow: 25px 0px 0px 0px rgb(203, 15, 15),-25px 25px 0px 0px rgb(203, 15, 15),0px 25px 0px 0px rgb(237, 237, 232),25px 25px 0px 0px rgb(203, 15, 15),50px 25px 0px 0px rgb(203, 15, 15),-50px 50px 0px 0px rgb(203, 15, 15),-25px 50px 0px 0px rgb(237, 237, 232),0px 50px 0px 0px rgb(203, 15, 15),25px 50px 0px 0px rgb(203, 15, 15),50px 50px 0px 0px rgb(237, 237, 232),75px 50px 0px 0px rgb(203, 15, 15),-50px 75px 0px 0px rgb(203, 15, 15),-25px 75px 0px 0px rgb(203, 15, 15),0px 75px 0px 0px rgb(203, 15, 15),25px 75px 0px 0px rgb(203, 15, 15),50px 75px 0px 0px rgb(203, 15, 15),75px 75px 0px 0px rgb(203, 15, 15),
+  0px 100px 0px 0px rgb(205, 188, 118), 25px 100px 0px 0px rgb(205, 188, 118), 0px 125px 0px 0px rgb(205, 188, 118), 25px 125px 0px 0px rgb(205, 188, 118);
+
+}
+.div8{
+  height:25px;
+  width:25px;
+  background-color:rgb(240, 172, 27); 
+  position:relative;
+  top:80px;
+  left:170px;
+  box-shadow:25px 0px 0px 0px rgb(240, 172, 27),50px 0px 0px 0px rgb(240, 172, 27),-25px 25px 0px 0px rgb(240, 172, 27),-0px 25px 0px 0px rgb(240, 172, 27),25px 25px 0px 0px rgb(240, 172, 27),50px 25px 0px 0px rgb(240, 172, 27),75px 25px 0px 0px rgb(240, 172, 27),-25px 50px 0px 0px rgb(240, 172, 27),-0px 50px 0px 0px rgb(240, 172, 27),25px 50px 0px 0px rgb(240, 172, 27),50px 50px 0px 0px rgb(240, 172, 27),75px 50px 0px 0px rgb(240, 172, 27),25px 75px 0px 0px rgb(240, 172, 27),50px 75px 0px 0px rgb(240, 172, 27),0px 75px 0px 0px rgb(240, 172, 27), 25px -25px 0px 0px rgb(22, 161, 36);
+}
